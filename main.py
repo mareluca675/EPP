@@ -16,7 +16,7 @@ class EPP():
         self.title.pack(pady=10)
         
         # Start label
-        self.start_label = tk.Label(self.screen, text='Ready to practice?', font=('Arial', 40))
+        self.start_label = tk.Label(self.screen, text='Ready to practise?', font=('Arial', 40))
         self.start_label.pack(pady=20)
         
         # Choosing a random phrase from data
@@ -73,4 +73,5 @@ class EPP():
         self.screen.after(1500, self.practice)
             
             
+
 EPP().screen.mainloop()
